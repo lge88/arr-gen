@@ -13,8 +13,8 @@ endif
 build: components $(SRC) component.json
 	@(node bin/build.js && touch components)
 
-lge88-math.js: components
-	@component build --standalone lge88-math --name lge88-math --out .
+arr-gen.js: components
+	@component build --standalone arrGen --name arr-gen --out .
 
 components: component.json
 	@(component install --dev && touch components)
@@ -31,4 +31,4 @@ test: build
 demo: build
 	$(OPEN) examples/index.html
 
-.PHONY: clean lge88-math.js test
+.PHONY: clean arr-gen.js test
