@@ -1,10 +1,8 @@
 
-var lib = require( 'lge88-math' );
+var arrGen = require( 'arr-gen' );
 var expect = require( 'expect.js' );
 
 describe( 'arrGen', function() {
-
-  var arrGen = lib.arrGen;
 
   it( 'should generate correct 1d array', function() {
     var arr = arrGen( 5, function( i ) { return i*2; } );
