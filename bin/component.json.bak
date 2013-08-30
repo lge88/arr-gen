@@ -1,0 +1,17 @@
+{
+  "name": "lge88-math",
+  "repo": "lge88/lge88-math",
+  "description": "lge88-math",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "lge88/expect.js": "*"
+  },
+  "scripts": [
+    "lib/index.js",
+    "lib/arr-gen.js"
+  ],
+  "main": "lib/index.js",
+  "styles": []
+}
