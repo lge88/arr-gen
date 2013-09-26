@@ -25,10 +25,13 @@ clean:
 component.json: $(SRC)
 	@node bin/add-files.js
 
-test: build
-	$(OPEN) test/index.html
+test:
+	@NODE_PATH=.. mocha test
+
+browser-test: build
+	@$(OPEN) test/index.html
 
 demo: build
-	$(OPEN) examples/index.html
+	@$(OPEN) examples/index.html
 
 .PHONY: clean arr-gen.js test

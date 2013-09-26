@@ -1,0 +1,14 @@
+{
+  "name": "arr-gen",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/lge88/arr-gen.git"
+  },
+  "devDependencies": {
+    "expect.js": "*"
+  },
+  "main": "lib/index.js"
+}
