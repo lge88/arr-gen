@@ -9,8 +9,8 @@
     "lge88/expect.js": "*"
   },
   "scripts": [
-    "lib/index.js",
-    "arr-gen.js"
+    "arr-gen.js",
+    "lib/index.js"
   ],
   "main": "lib/index.js",
   "styles": []

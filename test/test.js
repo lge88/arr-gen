@@ -52,4 +52,14 @@ describe( 'arrGen', function() {
     expect( arr2 ).to.eql( kdelta );
   } );
 
+  it( 'should generate all zeros', function() {
+    var zeros = arrGen( [3, 3] );
+    var arr2 = [
+      [ 0, 0, 0 ],
+      [ 0, 0, 0 ],
+      [ 0, 0, 0 ]
+    ];
+    expect( arr2 ).to.eql( zeros );
+  } );
+
 } );
